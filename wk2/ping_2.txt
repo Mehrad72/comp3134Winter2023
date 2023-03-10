@@ -1,0 +1,12 @@
+C:\Users\Mehrad.DESKTOP-ID7JA0F>ping 138.197.165.225
+
+Pinging 138.197.165.225 with 32 bytes of data:
+Reply from 138.197.165.225: bytes=32 time=32ms TTL=56
+Reply from 138.197.165.225: bytes=32 time=18ms TTL=56
+Reply from 138.197.165.225: bytes=32 time=18ms TTL=56
+Reply from 138.197.165.225: bytes=32 time=26ms TTL=56
+
+Ping statistics for 138.197.165.225:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 18ms, Maximum = 32ms, Average = 23ms

@@ -1,0 +1,47 @@
+root@comp3134Winter2023:~# nmap blizzard.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-10 21:04 UTC
+Nmap scan report for blizzard.com (137.221.106.104)
+Host is up (0.051s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+
+root@comp3134Winter2023:~# nmap -p 22 spotify.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-10 21:05 UTC
+Nmap scan report for spotify.com (35.186.224.25)
+Host is up (0.0020s latency).
+Other addresses for spotify.com (not scanned): 2600:1901:1:c36::
+rDNS record for 35.186.224.25: 25.224.186.35.bc.googleusercontent.com
+
+PORT   STATE    SERVICE
+22/tcp filtered ssh
+
+Nmap done: 1 IP address (1 host up) scanned in 0.33 seconds
+
+
+root@comp3134Winter2023:~# nmap -p 22-80 songsterr.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-10 21:36 UTC
+Nmap scan report for songsterr.com (34.202.113.218)
+Host is up (0.020s latency).
+Other addresses for songsterr.com (not scanned): 44.195.180.112 3.219.44.66 2600:1f18:b31:eb01::c1 2600:1f18:b31:eb02::c2 2600:1f18:b31:eb03::c3
+rDNS record for 34.202.113.218: ec2-34-202-113-218.compute-1.amazonaws.com
+Not shown: 57 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+root@comp3134Winter2023:~# nmap -F 4anime.gg
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-10 21:37 UTC
+Nmap scan report for 4anime.gg (172.64.80.1)
+Host is up (0.0070s latency).
+Other addresses for 4anime.gg (not scanned): 2606:4700:130:436c:6f75:6466:6c61:7265
+Not shown: 96 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+
+Nmap done: 1 IP address (1 host up) scanned in 1.70 seconds

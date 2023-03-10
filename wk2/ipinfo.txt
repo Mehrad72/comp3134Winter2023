@@ -1,0 +1,27 @@
+IPv4 Address for cloud.digitalocean.com
+ Domain Server IP: 104.16.182.15
+ Domain Server IP: 104.16.181.15
+ United States of America
+
+ IPv4 Address for myflixer.to
+ Domain Server IP: 104.31.16.118
+ Domain Server IP: 104.31.16.11
+ United States of America
+
+ IPv4 Address for 4anime.gg
+ Domain Server IP: 172.67.157.246
+ Domain Server IP: 104.21.57.14
+ United States of America
+
+ IPv4 Address for twitter.com
+ Domain Server IP: 104.244.42.193
+ Domain Server IP: 104.244.42.1
+ Domain Server IP: 104.244.42.65
+ Domain Server IP: 104.244.42.129
+ United States of America
+
+ IPv4 Address for www.raidbots.com
+ Domain Server IP: 104.26.12.37
+ Domain Server IP: 104.26.13.37
+ Domain Server IP: 172.67.71.99
+ United States of America
